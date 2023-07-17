@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donate</title>
+     <!-- header font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+     
+
+<style>
+         body{
+        background: url('bg2.jpg' );
+        margin: 0px;
+        padding: 0px;
+        height:  800px;
+        color: aliceblue;
+  font-family: 'Julee', cursive;
+        
+    }
+    .left{
+    /* border: 2px solid yellow; */
+    display:inline-block;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    padding: 5px;
+    text-align: center;
+    
+    }
+    h4{
+        font-size: 20px;
+        line-height: 70%;
+    }
+    .mid{
+        /* border: 2px solid yellow; */
+        display: block;
+        width: 600px;
+        margin:25px auto;
+        text-align: center;
+
+        
+    }
+    .right{
+        /* border: 2px solid yellow; */
+        display:inline-block;
+        right: 32px;
+        position: absolute;
+        top: 10px;
+        padding: 5px;
+    }
+    .left img{
+        width: 150px;
+        margin: -10px;
+        
+    }
+    .left h4{
+       margin:0px;
+       text-align: center;
+    }
+    .navbar li  {
+    display: inline-block;
+    font-size: 25px;
+    
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: aliceblue;
+       padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        font-size: 27px;
+color: greenyellow;
+    }
+    .btn{
+        margin: 6px;
+        color: aliceblue;
+        background-color: black;
+        font-family: 'Julee', cursive;
+        font-size: 18px;
+    }
+    .btn:hover{
+        background-color: rgb(59, 57, 57);
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 22px;
+    }
+    .container{
+        border: 3px solid greenyellow;
+    width: 475px;
+    border-radius: 8px;
+   padding: 20px;
+    top:15%;
+    right: 60%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.486);
+    }
+    /* .form-group{
+        text-align: center;
+    } */
+    .container h2{
+        
+        color: greenyellow;
+      text-align: center;
+      font-size: 29px;
+      padding: 3px;
+      display: inline;
+      border-radius: 7px;
+      
+    }
+     
+    .form-group input{
+        text-align: center;
+        display: inline;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        border-radius: 8px;
+        font-family: 'Julee', cursive;
+     
+font-size: 18px;
+color: black;
+
+    }
+    
+    .container button{
+        width: 310px;
+        border: 2px solid wheat;
+        display: block;
+        height: 33px;
+        margin: 12px 3px 12px 150px;
+      
+        border-radius: 8px;
+    }
+    .para{
+        border: 3px solid greenyellow;
+        width: 60%;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        right: -4.5%;
+        font-size: 23px;
+        color: white;
+        border-radius:60px 0px 0px 60px ;
+        background-color: rgba(0, 0, 0, 0.486);
+        -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: white;
+    }
+    .container label{
+        color: white;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <div><h4 >Welcome to the </h4></div>
+            <a href="index.html"> <img src="junglelogo.png" alt=""></a>
+        </div>
+        <div class="mid" >    <ul class="navbar"> 
+         <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Categeories</a></li>
+        <li><a href="#">Contact us</a></li></ul>
+     </div>
+     
+        <div class="right">  
+          <button class="btn">Signup</button>
+          <button class="btn">Login</button>
+     </div>
+     </header>
+    <div class="container">
+<h2>Paytment Details</h2>
+<form action="noaction.php">
+
+<div class="form-group">
+    <label for="fname">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="fname" ></div>
+
+<div class="form-group">
+    <label for="lname"> Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="lname" ></div>
+
+<div class="form-group">
+    <label for="email"> Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+    <input type="text" id="email"></div>
+
+<div class="form-group">
+    <label for="phone">Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="phone" ></div>
+
+<div class="form-group">
+    <label for="donation">Donation Amount: </strong></label>
+    <input type="text" id="donation" placeholder="&#8377;Enter Amount" ></div>
+    
+    <div class="form-group">
+        <label for="pan">Pan No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></label>
+        <input type="pan" id="phone" ></div>
+
+</form>
+<button class="btn">Pay</button>
+    </div> 
+<div class="para">
+    <p> Our urgent targets are to:
+
+       </p>
+    <p>
+
+        &#x02022;Fund the reassessment of all comprehensively assessed groups. This is essential to continue monitoring the changing status of species across the world. <br>
+        &#x02022;Fund the assessment of taxa not yet represented on The IUCN Red List. This will help expand coverage to a more representative subset of the planet's biodiversity.
+       </p>
+    
+</div>    
+</body>
+</html>

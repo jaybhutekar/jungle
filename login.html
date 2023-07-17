@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+     <!-- header font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+        background: url('loginbg.jpg' );
+        margin: 0px;
+        padding: 0px;
+        height:  800px;
+        color: aliceblue;
+  font-family: 'Julee', cursive;
+        
+    }
+    .left{
+    /* border: 2px solid yellow; */
+    display:inline-block;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    padding: 5px;
+    text-align: center;
+    
+    
+    }
+    a{
+        color: white;
+    }
+    h4{
+        font-size: 20px;
+        line-height: 70%;
+    }
+    .mid{
+        /* border: 2px solid yellow; */
+        display: block;
+        width: 600px;
+        margin:25px auto;
+        text-align: center;
+
+        
+    }
+    .right{
+        /* border: 2px solid yellow; */
+        display:inline-block;
+        right: 32px;
+        position: absolute;
+        top: 10px;
+        padding: 5px;
+    }
+    .left img{
+        width: 150px;
+        margin: -10px;
+        
+    }
+    .left h4{
+       margin:0px;
+       text-align: center;
+    }
+    .navbar li  {
+    display: inline-block;
+    font-size: 25px;
+    
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: aliceblue;
+       padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        font-size: 27px;
+color: greenyellow;
+    }
+    .btn{
+        margin: 6px;
+        color: aliceblue;
+        background-color: black;
+        font-family: 'Julee', cursive;
+        font-size: 18px;
+    }
+    .btn:hover{
+        background-color: rgb(59, 57, 57);
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 22px;
+    }
+    .container{
+        border: 3px solid greenyellow;
+    width: 475px;
+    border-radius: 8px;
+   padding: 20px;
+    top:35%;
+    right: 60%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.486);
+    }
+    /* .form-group{
+        text-align: center;
+    } */
+    .container h2{
+        background-color:  rgba(0, 0, 0, 0.486);
+        color: greenyellow;
+      text-align: center;
+      font-size: 29px;
+      padding: 3px;
+      display: inline;
+      border-radius: 7px;
+      
+    }
+     
+    .form-group input{
+        text-align: center;
+        display: inline;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        border-radius: 8px;
+        font-family: 'Julee', cursive;
+     
+font-size: 18px;
+color: black;
+
+    }
+    
+    .container button{
+        width: 310px;
+        border: 2px solid wheat;
+        display: block;
+        height: 33px;
+        margin: 12px 3px 12px 2px;
+      
+        border-radius: 8px;
+    }
+    .container label{
+        color: white;
+        font-size: 20px;
+       
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <div><h4 >Welcome to the </h4></div>
+            <a href="index.html"> <img src="junglelogo.png" alt=""></a>
+        </div>
+        <div class="mid" >    <ul class="navbar"> 
+         <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Categeories</a></li>
+        <li><a href="#">Contact us</a></li></ul>
+     </div>
+     
+        <div class="right">  
+         <a href="signup.html"> <button class="btn">Signup</button></a>
+         <a href="login.html"> <button class="btn">Login</button></a>
+     </div>
+     </header>
+     <div class="container">
+    <h1>Signup for Explore the Jungle</h1>
+<form action="noaction.php">
+<label for="email">Login id:</label>
+<div class="form-group"><input type="text" id="email" placeholder="Email Id / phone no."></div>
+
+<label for="pass">Password:</label>
+<div class="form-group"><input type="text" id="pass"></div>
+
+
+
+</form>
+<a href="aftersignup.html"><button class="btn">Submit</button></a>
+    </div> 
+</body>
+</html>
