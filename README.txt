@@ -82,7 +82,7 @@ in those cases you can use the static font files for Tourney:
   static/Tourney/Tourney-LightItalic.ttf
   static/Tourney/Tourney-Italic.ttf
   static/Tourney/Tourney-MediumItalic.ttf
-  static/Tourney/Tourney-SemiBoldItalic.ttf
+  static/Tourney/Tourney-SemiBoldItalic.ttf dd
   static/Tourney/Tourney-BoldItalic.ttf
   static/Tourney/Tourney-ExtraBoldItalic.ttf
   static/Tourney/Tourney-BlackItalic.ttf
